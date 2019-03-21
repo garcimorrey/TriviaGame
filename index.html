@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>2018 World Cup Quizz</title>
+</head>
+<body>
+	
+    
+	<div class="container col-md-12">
+		<div class="row text-center">
+			<h1 id="triviaTitle">2018 World Cup Quizz</h1>
+		</div>
+		<div class="jumbotron text-center" id="startGame">
+			<button id="startBtn">Start the quizz</button>
+        </div>
+        
+		<div class="jumbotron text-center" id="gameArea">
+			<div class="container" id="Qs">
+				<div id="time"></div>
+				<div class="question"></div><br>
+				<div class="choices"></div>
+            </div>
+            
+			<div class="container" id="Ans">
+				<div id="text"></div>
+				<div id="correctAnswer"></div>
+				<div id="jpg"></div><br>
+				<div id="jpgText"></div>
+            </div>
+            
+			<div class="container" id="Res">
+				<div id="resultText"></div>
+				<div id="correctAnswers"></div>
+				<div id="wrongAnswers"></div>
+				<div id="unanswered"></div><br>
+				<button id="startOverBtn"></button>
+			</div>
+		</div>
+	</div>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>

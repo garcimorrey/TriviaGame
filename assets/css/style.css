@@ -1,0 +1,94 @@
+body {
+    background-color: lightgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#triviaTitle {
+	margin-left: auto;
+    margin-right: auto;
+    color:#faf7ed;
+    letter-spacing: 8px;
+}
+
+div.jumbotron.text-center#startGame {
+    background-color: white;
+    border-radius: 25%;
+}
+
+	#startBtn {
+		padding: 25px;
+		font-size: 25px;
+		background-color: #e2c55f;
+		border-color: black;
+		color: white;
+		letter-spacing: 4px;
+	}
+		#startBtn:hover {
+			background-color: lightgreen;
+			color: #def;
+		}
+
+div#gameArea.jumbotron.text-center {
+    background-color: white;
+    border-radius: 25%;
+}
+
+img.jpgImg {
+	width:75%;
+	height:auto;
+}
+
+	div#time {
+		font-size: 25px;
+		color: #def;
+	}
+	div.question {
+		color: black;
+        font-size: 25px;
+        background-color: lightgreen;
+        border-radius: 25%;
+        border-color: black;
+        border: solid 3px;
+	}
+
+	div.thisChoice {
+		font-size: 20px;
+		color: black;
+        line-height: 50px;
+        background-color: lightgreen;
+        border-radius: 25%;
+        margin: 5px;
+	}
+		div.thisChoice:hover {
+			color:white;
+        }
+        
+	div#text, div#correctAnswer {
+		color: lightgreen;
+		font-size: 20px;
+	}
+	div#text {
+		color: lightgreen;
+	}
+
+div.container#Res {
+	color: lightgreen;
+	font-size: 20px;
+}
+	div#resultText {
+		color: black;
+	}
+	button#startOverBtn {
+		padding:20px;
+		font-size: 18px;
+		background-color: lightgreen;
+		border-color: #000;
+		color: white;
+	}
+		button#startOverBtn:hover {
+			background-color: #e2c55f;
+			color: #111;
+			cursor: pointer;
+		}
+
+
